@@ -17,7 +17,7 @@ pycheck virtualenv
 If it's not there:
 
 ```bash
-pip3 install virtualenv`
+pip3 install virtualenv
 ```
 
 Now create, activate and install necessary packages into a virtual environment
@@ -44,19 +44,19 @@ Install Solr 5.5.3
 Start solr in schemaless mode
 
 ```bash
-./bin/solr start -e schemaless`
+./bin/solr start -e schemaless
 ```
 
 Create a new Solr core
 
 ```bash
-`./bin/solr create -c zooma_rules`
+./bin/solr create -c zooma_rules
 ```
 
 Load the rules
 
 ```bash
-`./bin/post -p 8983 -c zooma_rules ../rules.json`
+./bin/post -p 8983 -c zooma_rules ../rules.json
 ```
 
 Run a query
